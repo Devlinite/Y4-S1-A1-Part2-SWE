@@ -4,20 +4,17 @@
   <artifactId>Y4S1A1P2SWE</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
-  	<dependency>
-  		<groupId>michaeldevlinSWEA1PartA</groupId>
-  		<artifactId>Y4S1A1SW</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+	<dependency>
+	    <groupId>com.github.Devlinite</groupId>
+	    <artifactId>Y4-S1-A1-Part1-SWE</artifactId>
+	    <version>-SNAPSHOT</version>
+	</dependency>
   </dependencies>
     <repositories>  
-    <repository>
-        <id>Google-drive-mvn-repo</id>
-        <name>My Google Drive Repository</name>
-        <url>
-            https://drive.google.com/drive/folders/0B-QLoa13OxZnWF94RXZlNFEwNms?usp=sharing
-        </url>
-    </repository>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
   </repositories>
   <distributionManagement>  
     <repository>
