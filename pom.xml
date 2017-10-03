@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>michaeldevlinSWEA1PartB</groupId>
+  <artifactId>Y4S1A1P2SWE</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>michaeldevlinSWEA1PartA</groupId>
+  		<artifactId>Y4S1A1SW</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+    <repositories>  
+    <repository>
+        <id>Google-drive-mvn-repo</id>
+        <name>My Google Drive Repository</name>
+        <url>
+            https://drive.google.com/drive/folders/0B-QLoa13OxZnWF94RXZlNFEwNms?usp=sharing
+        </url>
+    </repository>
+  </repositories>
+  <distributionManagement>  
+    <repository>
+        <id>Google-drive-mvn-repo</id>
+        <url>file:///C:\Users\User\Google-Drive\Google-drive-mvn-repo</url>
+    </repository>
+  </distributionManagement>
+</project>
