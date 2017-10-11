@@ -5,9 +5,9 @@ jdk:
 build:
     ci:
     #Create folders for test results
-    - mkdir -p shippable/testresults
+    - mkdir -p $SHIPPABLE_REPO_DIR/shippable/testresults
     
     #Run test and install and output results to the right folder
     - mvn clean install
     - mvn test
-    - cp -r target shippable/testresults
+    - cp -r target $SHIPPABLE_REPO_DIR/shippable/testresults
